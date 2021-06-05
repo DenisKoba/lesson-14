@@ -1,0 +1,12 @@
+@import "assets";
+
+.header {
+  padding: 70px 0;
+  background-color: $yellow;
+
+  &__content {
+    padding: 0 26px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

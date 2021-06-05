@@ -1,0 +1,17 @@
+$yellow: #FFFACA;
+$black: #000000;
+$white: #ffffff;
+$pink: #FFE8EC;
+
+@mixin font-style(
+  $font-size: 14px,
+  $line-height: 16px,
+  $color: $black,
+  $font-weight: 400,
+) {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $color;
+  font-weight: $font-weight;
+}

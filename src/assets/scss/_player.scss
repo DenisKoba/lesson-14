@@ -1,0 +1,42 @@
+@import "assets";
+
+.player {
+  background-color: $white;
+  padding: 48px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  position: relative;
+  top: -60px;
+
+  &__girl {
+    background: url("../icons/girl.png") center/cover no-repeat;
+    width: 230px;
+    height: 230px;
+    margin: 0 0 24px;
+  }
+
+  &__track-name {
+    @include font-style(24px, 30px, $black, 700);
+    margin: 0 0 5px;
+  }
+
+  &__singer-name {
+    @include font-style(14px, 20px, $black, 400);
+  }
+}
+
+.navigation {
+  &__play  {
+    width: 80px;
+    height: 80px;
+    background-color: $pink;
+    border-radius: 50%;
+
+    &:after, &before {
+      content: '';
+      width: 10px;
+      height: 26px;
+      border-radius: 5px;
+    }
+  }
+}

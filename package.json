@@ -1,0 +1,28 @@
+{
+  "name": "lesson-14",
+  "version": "1.0.0",
+  "description": "'lesson 14'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisKoba/lesson-14.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisKoba/lesson-14/issues"
+  },
+  "homepage": "https://github.com/DenisKoba/lesson-14#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
